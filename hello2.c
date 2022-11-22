@@ -16,7 +16,7 @@ static int __init hello_init(void)
 
 static void __exit hello_exit(void)
 {
-	/* Nothing for now */
+	hello_destroy();
 }
 
 module_init(hello_init);
